@@ -1,21 +1,36 @@
 body {
-    background: blanchedalmond;
+    background:#03593A;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .assignment {
     display:flex;
     padding:10px;
-    background:beige;
+    margin:10px;
+    background:#08A66C;
+    border-radius: 4px;
 }
 
 .assignment img {
     width:200px;
     padding:10px;
+    background: mediumaquamarine;
+}
+.assignment img:hover{
+border:3px dotted black;
 }
 
 h1 {
     color: black;
+    padding:10px;
     text-align: center;
+    background:white;
     
+}
+a{
+text-decoration:none;
+color:whitesmoke;
+}
+a :hover{
+    color:#541C8C;
 }
